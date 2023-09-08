@@ -1,0 +1,235 @@
+.red{
+    color: red;
+}
+.heading {
+    font-size: 20px;
+}
+
+body{
+    background-color:  #f1f1f1;
+    margin: 0;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+}
+.header{
+    text-align: center;
+    padding: 38px 32px ;
+}
+.myblog{
+    font-size: 36px;
+}
+.sub_head{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+}
+.header_spam{
+    background-color: black;
+    color: white;
+}
+.card{
+    width: 900px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px 0px, rgba(0, 0, 0, 0.19) 0px 4px 20px 0px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+.card_img img{
+    width: 100%;
+}
+.card_head h1{
+    font-size: 24px;
+    font-weight: 500;
+}
+.card_head{
+    padding: 20px;
+}
+.card_subhead{
+    margin: 14px 0px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.subhead_span{
+    opacity: 0.6;
+}
+.card_content p{
+    padding: 0px 20px;
+    margin: 0;
+    font-size: 15px;
+    line-height: 22px;
+}
+.card_action{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+.card_action button{
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.card_action h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.card_action h3 span{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+.right_side_card{
+    width: 435px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+    background-color: white;
+}
+.right_img img{
+    width: 100%;
+}
+.right_side_card h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+} 
+.right_side_card p{
+    padding: 0 10px 20px 20px;
+    margin: 0;
+    line-height: 22px;
+}
+.container_for_content{
+    display: flex;
+    gap: 35px;
+}
+.popular{
+    width: 435px;
+    margin: 35px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+.popular_post_heading{
+    width: 435px;
+}
+.popular_post_heading h1{
+    font-size: 20px;
+    font-weight: 200;
+    padding: 20px;
+}
+.popular_posts{
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+    display: flex;
+    border-bottom: 0.8px solid rgb(221, 221, 221);
+}
+.popular_posts img{
+    width: 50px;
+}
+.popular_posts_title h3,h2{
+    margin: 0;
+    margin-left: 20px;
+}
+.popular_posts_title h3{
+    font-size: 18px;
+    font-weight: 200;
+}
+.popular_posts_title h2{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.tag{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+    width: 435px;
+    
+}
+.tag_spans{
+    padding: 0 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+.tag_spans span {
+    background-color: #f1f1f1;
+    padding: 2px 3px;
+    margin-left: 4px;
+    line-height: 46.5px;
+    font-size: 12px;
+    margin: 5px 8px;
+}
+
+.tag_diff{
+    background-color: black !important;
+    color: white;
+    padding: 2px 3px;
+}
+.footer_wrap {
+    background-color: #616161;
+}
+.footer_actions button{
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 100;
+}
+.blur{
+    opacity: 0.3;
+}
+.container_for_footer{
+    max-width: 1468px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.footer h3{
+    margin-top: 25px;
+    font-size: 14px;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+}
+.footer h3 a{
+    color: white;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
