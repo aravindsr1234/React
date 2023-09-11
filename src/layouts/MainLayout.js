@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Heading from "../components/Head"
 import List from '../components/CardOne';
 import RightSide from "../components/RightCard";
@@ -11,21 +12,35 @@ import Form from "../components/Form";
 
 
 function MainLayout() {
-    return (
+  return (
+    <Router>
       <div className="wrapper">
         <div className="container">
-          <Heading />
+          <Routes>
+          <Route path="/" Component={Heading} />
+            {/* <Heading /> */}
+          </Routes>
           <div className="container_for_content">
             <div className="cards">
-              <List  />
+              <Routes>
+                <Route path="/" Component={List} />
+                {/* <List /> */}
+              </Routes>
             </div>
             <div className="right_side_cards">
-              <RightSide />
-              <PopularPost />
-              <Tags />
+              <Routes>
+                <Route path="/" Component={RightSide} />
+                <Route path="/" Component={PopularPost} />
+                <Route path="/" Component={Tags} />
+              </Routes>
             </div>
           </div>
-          <Form />
+          <Routes>
+
+            <Route path="/add" Component={Form} />
+
+          </Routes>
+          {/* <Form /> */}
         </div>
         <div className="footer_wrap">
           <div className="footer container_for_footer">
@@ -33,7 +48,8 @@ function MainLayout() {
           </div>
         </div>
       </div>
-    );
-  }
-  
-  export default MainLayout;
+    </Router>
+  );
+}
+
+export default MainLayout;

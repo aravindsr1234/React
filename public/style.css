@@ -18,6 +18,8 @@ h1{
     margin: 0;
 }
 .header{
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding: 38px 32px ;
 }
@@ -232,4 +234,23 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+.Addblog {
+    text-align: center;
+}
+.main_head{
+    flex: 1;
+}
+.addBlogBtn {
+    padding: 11px 38px;
+    background-color: lightskyblue;
+    border: navajowhite;
+    border-radius: 5px;
+}
+.cardMargin{
+    margin: 20px auto;
+}
+.formFlex{
+    display: flex;
 }
